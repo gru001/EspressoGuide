@@ -20,6 +20,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.widget.TextView;
 
@@ -28,7 +29,7 @@ import com.example.pranit.espressoguide.R;
 /**
  * A simple {@link Activity} that shows a message.
  */
-public class ShowTextActivity extends Activity {
+public class ShowTextActivity extends AppCompatActivity {
 
     // The name of the extra data sent through an {@link Intent}.
     public final static String KEY_EXTRA_MESSAGE =

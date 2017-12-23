@@ -19,6 +19,7 @@ package com.example.pranit.espressoguide.basics;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,7 +31,7 @@ import com.example.pranit.espressoguide.R;
  * clicks on one of the two buttons. The first one shows it in the same activity and the second
  * one opens another activity and displays the message.
  */
-public class BasicActivity extends Activity implements View.OnClickListener {
+public class BasicActivity extends AppCompatActivity implements View.OnClickListener {
 
     // The TextView used to display the message inside the Activity.
     private TextView mTextView;

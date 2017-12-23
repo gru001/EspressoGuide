@@ -8,7 +8,6 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.ActivityInstrumentationTestCase2;
 
-import com.example.pranit.espressoguide.MainActivity;
 import com.example.pranit.espressoguide.R;
 
 import org.junit.Before;
@@ -47,8 +46,8 @@ public class BasicActivityTest {
      * the {@link ActivityTestRule#getActivity()} method.
      */
     @Rule
-    public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(
-            MainActivity.class);
+    public ActivityTestRule<BasicActivity> mActivityRule = new ActivityTestRule<>(
+            BasicActivity.class);
 
     @Test
     public void changeText_sameActivity() {
