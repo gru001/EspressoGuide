@@ -22,6 +22,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     // App's dependencies
     implementation "com.android.support:appcompat-v7:$rootProject.supportLibVersion"
+    implementation "com.android.support.test.espresso:espresso-idling-resource:$rootProject.espressoVersion"
     // Junit's dependencies
     testImplementation "junit:junit:$rootProject.junitVersion"
     // Ui Test's dependencies
