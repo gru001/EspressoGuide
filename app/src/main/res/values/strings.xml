@@ -32,4 +32,6 @@
     <!--idling resources-->
     <string name="waiting_msg">Waiting for message…</string>
     <string name="row_label">Clicked on row</string>
+    <!--intent advanced-->
+    <string name="button_open_camera">Take photo</string>
 </resources>
