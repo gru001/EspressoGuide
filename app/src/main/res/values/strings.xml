@@ -43,4 +43,19 @@
         keeping this sample simple and focused.
     </string>
     <string name="warning_call_phone_permission">This app requires \'call phone\' permission to run</string>
+    <!--multiprocess-->
+    <string name="start_private_activity">Start Private Process Activity</string>
+    <string name="click_me">Click Me!</string>
+    <string name="button_clicked">Button clicked!</string>
+    <string name="list_selection">Selected: %1$s</string>
+
+    <string-array name="list_items">
+        <item>Espresso</item>
+        <item>Doppio</item>
+        <item>Macchiato</item>
+        <item>Cappuccino</item>
+        <item>Americano</item>
+        <item>Mocha</item>
+        <item>Latte</item>
+    </string-array>
 </resources>
