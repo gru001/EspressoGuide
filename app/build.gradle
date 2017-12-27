@@ -23,6 +23,7 @@ dependencies {
     // App's dependencies
     implementation "com.android.support:appcompat-v7:$rootProject.supportLibVersion"
     implementation "com.android.support.test.espresso:espresso-idling-resource:$rootProject.espressoVersion"
+    implementation "com.android.support:recyclerview-v7:$rootProject.supportLibVersion"
     // Junit's dependencies
     testImplementation "junit:junit:$rootProject.junitVersion"
     // Ui Test's dependencies
@@ -30,4 +31,6 @@ dependencies {
     androidTestImplementation "com.android.support.test:rules:$rootProject.rulesVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.espressoVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-intents:$rootProject.espressoVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$rootProject.espressoVersion"
+    androidTestImplementation "com.android.support:recyclerview-v7:$rootProject.supportLibVersion"
 }
