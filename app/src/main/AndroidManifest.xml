@@ -21,6 +21,18 @@
 
         <activity android:name=".basics.BasicActivity"/>
         <activity android:name=".basics.ShowTextActivity"/>
+        <activity android:name=".custommatcher.CustomMatcherActivity"/>
+        <activity android:name=".dataadapter.LongListActivity"/>
+        <activity android:name=".idlingresources.IdlingResourcesActivity"/>
+        <activity android:name=".intentadavanced.ImageViewerActivity"/>
+        <activity android:name=".intentbasics.ContactsActivity"/>
+        <activity android:name=".intentbasics.DialerActivity"/>
+        <activity android:name=".multiprocess.DefaultProcessActivity"/>
+        <activity android:name=".multiprocess.PrivateProcessActivity"/>
+        <activity android:name=".multiwindow.SuggestActivity"/>
+        <activity android:name=".recyclerview.RecyclerSampleActivity"/>
+        <activity android:name=".webview.WebViewActivity"/>
+
     </application>
 
 </manifest>
