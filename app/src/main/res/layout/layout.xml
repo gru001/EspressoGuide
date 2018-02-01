@@ -2,4 +2,6 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
           android:id="@+id/lbl_titles"
           android:layout_width="wrap_content"
-          android:layout_height="wrap_content"/>
+          android:layout_height="wrap_content"
+          android:layout_margin="@dimen/margin_medium"
+          android:gravity="center"/>
